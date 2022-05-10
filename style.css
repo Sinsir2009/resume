@@ -20,10 +20,12 @@ div {font-family: Arial; border: solid 0px;}
 #headText { float: right; width: 370px; }
 #headImage {float: left; width: 240px;}
 #bodyText {padding: 0px; clear: both;}
-#bodyText div {display: block; position: relative; overflow: hidden;}
+#bodyText div {display: block; position: relative; overflow: hidden; border: solid 0px; padding: 0px 25px;}
 #bodyText div div {float: left; display: block; width: 30%;}
 #bodyText div ul {float: left; display: block; width: 25%;}
 p.naviki {padding-top: 10px; line-height: 20px; clear: both;}
 H1, H2 {text-align: center; margin: 0px;}
-H2 {text-align: center; line-height: 30px; padding: 20px 0px 0px 0px;}
+H2 {text-align: center; line-height: 30px; padding: 25px 0px 0px 0px;}
 p {line-height: 20px; margin: 10px auto;}
+div #footer {margin: 10px 0px 25px 0px; padding: 0px;}
+#footer p {text-align: right; font-size: 10px;}
