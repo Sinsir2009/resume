@@ -1,0 +1,29 @@
+body {height: 100%; margin: 0px;}
+div {font-family: Arial;}
+#wrap {min-height: 100%;
+	margin: 0px;
+	background-color: #3B638B;
+	padding: 20px;
+	position: relative;
+	}
+#list {
+	 width: 640px;
+	 margin: auto ;
+	 background-color: #ffffff;
+	 padding: 25px;
+	 border-radius: 25px;
+	 display: block;
+	-moz-box-shadow:    3px 3px 5px 6px #333333;
+  -webkit-box-shadow: 3px 3px 5px 6px #333333;
+  box-shadow:         3px 3px 5px 6px #333333;
+	}
+#headText {padding: 0px 20px; float: left;}
+#headImage {float: right; width: 240px;}
+#bodyText {padding: 20px; clear: both;}
+#bodyText div {display: block; position: relative; overflow: hidden;}
+#bodyText div div {float: left; display: block; width: 30%;}
+#bodyText div ul {float: left; display: block; width: 25%;}
+p.naviki {padding-top: 10px; line-height: 20px; clear: both;}
+H1, H2 {text-align: center; margin: 0px;}
+H2 {text-align: center; line-height: 30px; padding: 20px 0px 0px 0px;}
+p {line-height: 5px;}
