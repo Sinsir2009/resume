@@ -24,6 +24,11 @@ div {font-family: Arial; border: solid 0px;}
 #bodyText div div {float: left; display: block; width: 30%;}
 #bodyText div ul {float: left; display: block; width: 25%;}
 #bodyText div li {line-height: 25px;}
+div #bottom_block { padding: 0px;}
+#bottom_block div { min-width: 45%; padding: 0px;}
+#bottom_block div ul { min-width: 90%; padding: 0px 25px; }
+#bottom_block div ul li { margin-left: 20px;}
+#bottom_block div.right {float: right;}
 p.naviki {padding-top: 10px; line-height: 20px; clear: both;}
 H1, H2 {text-align: center; margin: 0px;}
 H2 {text-align: center; line-height: 30px; padding: 25px 0px 0px 0px;}
